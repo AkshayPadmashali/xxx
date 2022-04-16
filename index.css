@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+#main-content {
+  z-index: 100;
+  display: flex;
+  background-color: rgba(204, 209, 228, 0.5);
+  background-color: rgba(255, 209, 189, 0.4);
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 50vh;
+  margin: 10vh auto 0 auto;
+  padding: 10%;
+  box-shadow: rgba(50, 50, 93, 0.8) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.8) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.8) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+}
+
+#generateBarcode {
+  margin-top: 30px;
+  align-items: center;
+  background-color: aliceblue;
+  opacity: 0.8;
+  color: black;
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.btn > .generateBarcode {
+  display: inline-block;
+  align-items: center;
+}
+
+#barcodeValue {
+  margin-top: 30px;
+  align-items: center;
+  background-color: #301b3f;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
