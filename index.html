@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Central Library | NMAMIT, Nitte</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="text/javascript"
+      src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=B7H3AB1Mfg5vNeIloImXQ-6ej48hHwfv0b9d3hhDLrkBfnLPsxylPSd2P8zd0BPbGkejSEakXBAmzVcggfev5A"
+      charset="UTF-8"
+    ></script>
+  </head>
+  <header>
+    <!-- partial:index.partial.html -->
+    <!-- MENU OVERLAY -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- MENU ITEMS -->
+      <nav>
+        <ul>
+          <li id="nav-1" class="slide-out-1 center">
+            <a href="#home" class="center"
+              ><p class="highlight">Back to Home</p></a
+            >
+          </li>
+          <li id="nav-2" class="slide-out-2 center">
+            <a
+              href="https://nmamit.nitte.edu.in/"
+              class="center"
+              target="_blank"
+              ><p class="highlight">
+                Developed by Information Science & Engg. students
+              </p></a
+            >
+          </li>
+          <li id="nav-3" class="slide-out-3 center">
+            <a
+              href="https://www.linkedin.com/in/padmashali-akshay-devanand-1749a4190/"
+              target="_blank"
+              class="center"
+              >@Akshay Padmashali</a
+            >
+          </li>
+          <li id="nav-4" class="slide-out-4 center">
+            <a
+              href="https://www.linkedin.com/in/pratheek-shankar-6146aa20a"
+              target="_blank"
+              class="center"
+              >@Pratheek Shankar</a
+            >
+          </li>
+          <li id="nav-5" class="slide-out-5 center">
+            <a
+              href="https://www.linkedin.com/in/srinivas-shanti-641172190"
+              target="_blank"
+              class="center"
+              >@Srinivas Shanti</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- HAMBURGER MENU -->
+    <div class="hamburger-menu" id="hamburger-menu">
+      <div class="menu-bar1"></div>
+      <div class="menu-bar2"></div>
+      <div class="menu-bar3"></div>
+    </div>
+    <!-- SECTIONS -->
+    <section id="home" class="center">
+      <img class="logo" src="nitte_deemed.png" alt="" height="40px" />
+    </section>
+    <!-- TESTING -->
+  </header>
+
+  <body>
+    <div id="main-content">
+      <div id="main-from">
+        <form>
+          <label class="enter-usn"><b>Enter your USN</b></label
+          ><br />
+          <input
+            type="text"
+            name="barcodeValue"
+            id="barcodeValue"
+            class="form-control"
+            placeholder="eg 4NM19IS106"
+          /><br />
+
+          <div class="btn">
+            <input
+              type="button"
+              id="generateBarcode"
+              name="generateBarcode"
+              class="btn btn-success form-control"
+              value="Generate Barcode"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="output">
+      <svg id="barcode"></svg>
+    </div>
+    <!-- TESTING -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/JsBarcode.all.min.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
